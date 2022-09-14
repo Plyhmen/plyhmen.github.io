@@ -259,3 +259,40 @@ body .gdpr-cookie-layer {
       text-decoration: underline;
     }
   }
+
+  /* ------- OLD ENERGY LABELS ------- */
+/* OLD A++ */
+
+.ee-l-412b2b {
+  background-position-y: -44px;
+}
+
+/* OLD A+ */
+.ee-l-412b {
+  background-position-y: -88px;
+}
+
+/* OLD A */
+.ee-l-41 {
+  background-position-y: -132px;
+}
+
+/* OLD B */
+.ee-l-42 {
+  background-position-y: -176px;
+}
+
+/* OLD C */
+.ee-l-43 {
+  background-position-y: -220px;
+}
+
+/* OLD D */
+.ee-l-44 {
+  background-position-y: -264px;
+}
+
+/* OLD E */
+.ee-l-45 {
+  background-position-y: -308px;
+}

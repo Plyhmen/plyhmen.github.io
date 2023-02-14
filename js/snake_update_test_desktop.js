@@ -362,8 +362,5 @@ const runSnake = function () {
 $(document).ready(function () {
     runSnake()
     $(window).trigger('resize');
-    
-    $('.slick-slider').slick('unslick').slick('reinit').slick(); 
-    console.info('slick-slider är klar');
 
 });

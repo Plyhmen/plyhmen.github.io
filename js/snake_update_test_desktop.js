@@ -358,11 +358,12 @@ const runSnake = function () {
         createSnakePc();
     }
 
-    $('.slick-slider').slick('unslick').slick('reinit').slick(); 
-    console.info('slick-slider är klar');
 }
 $(document).ready(function () {
     runSnake()
     $(window).trigger('resize');
+    
+    $('.slick-slider').slick('unslick').slick('reinit').slick(); 
+    console.info('slick-slider är klar');
 
 });

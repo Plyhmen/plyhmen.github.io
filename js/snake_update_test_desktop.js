@@ -357,10 +357,8 @@ const runSnake = function () {
     } else {
         createSnakePc();
     }
-
 }
 $(document).ready(function () {
-    runSnake()
+    runSnake();
     $(window).trigger('resize');
-
 });

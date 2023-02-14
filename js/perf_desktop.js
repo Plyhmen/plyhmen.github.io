@@ -1,1 +1,1 @@
-console.info("Perf JS external Loaded => Desktop")
+console.info("Perf JS external Loaded 2023 => Desktop")

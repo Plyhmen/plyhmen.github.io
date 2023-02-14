@@ -362,11 +362,7 @@ const runSnake = function () {
     console.info('slick-slider är klar');
 }
 $(document).ready(function () {
-        $.when(runSnake()).then(
-        function() {
-            $('.slick-slider').slick('unslick').slick('reinit').slick();
-        }
-    );
+    runSnake()
     $(window).trigger('resize');
 
 });
